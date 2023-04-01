@@ -1,7 +1,7 @@
 main {
     width: 100%;
     margin: 0;
-    height: 90vh;
+    height: 80vh;
     background: #fff;
 }
 
@@ -27,6 +27,7 @@ main {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    line-height: 1.5;
     margin-bottom: 40px;
     font-size: 31px;
     font-weight: bold;
@@ -81,7 +82,7 @@ main {
     background: rgba(9, 147, 226, 0.877);
     border: none;
     cursor: pointer;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
     color: #000;
     font-weight: bold;

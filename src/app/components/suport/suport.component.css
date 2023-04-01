@@ -1,6 +1,6 @@
 .content {
     width: 100%;
-    padding: 8%;
+    height: 50vh;
     background: purple;
 }
 
@@ -16,8 +16,10 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    line-height: 1.5;
     text-align: center;
     color: #fff;
+    padding-top: 90px;
 }
 
 .text span {

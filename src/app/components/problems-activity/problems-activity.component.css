@@ -30,9 +30,9 @@ header h1 {
     display: flex;
     width: 100%;
     flex-direction: row;
-    gap: 120px;
-    padding: 110px;
-    justify-content: center;
+    gap: 100px;
+    padding: 80px;
+    align-items: center;
 }
 
 .cards_content_two {
@@ -63,6 +63,7 @@ header h1 {
 .card_project label {
     font-size: 40px;
     text-align: center;
+    line-height: 1.5;
     font-weight: bold;
     color: #000;
 }
