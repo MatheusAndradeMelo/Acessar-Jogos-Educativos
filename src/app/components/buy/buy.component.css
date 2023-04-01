@@ -1,0 +1,122 @@
+main {
+    width: 100%;
+    margin: 0;
+    height: 90vh;
+    background: #fff;
+}
+
+#content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.text-two {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    margin-bottom: 50px;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.text-three {
+    width: 100%;
+    display: flex;
+    color: var( --color_two) !important;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.sale-price {
+    width: 300px;
+    height: 255px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0.9 !important;
+    background: rgb(239, 230, 5);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
+}
+
+.first-offer {
+    padding-top: 30px;
+    color: #000;
+}
+
+.first-offer span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first-offer p {
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.second-offer {
+    color: #000;
+}
+
+.second-offer span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.second-offer p {
+    font-weight: bold;
+}
+
+.buy-now button{
+    width: 180px;
+    height: 50px;
+    background: rgba(9, 147, 226, 0.877);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 22px;
+    align-items: center;
+    text-align: center;
+}
+
+.buy-now button:hover {
+    background-color: rgb(11, 106, 161);
+    color: #fff;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.438);
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+@media screen and (max-width: 500px) {
+    main {
+        height: 70vh;
+    }
+
+    .text-two {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+}
+.text-three {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+}
+  }

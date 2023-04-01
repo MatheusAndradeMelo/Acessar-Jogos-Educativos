@@ -1,0 +1,56 @@
+<section>
+  <!-- <mdb-navbar [containerInside]="false">
+    <mdb-navbar-brand>
+      <a style="cursor: pointer;" (click)="scroll('header_top')">A_cessar</a>
+    </mdb-navbar-brand> -->
+  
+    <!-- <links>
+      <ul class="navbar-nav ml-auto">
+      
+        <li class="nav-item">
+          <a class="nav-link" (click)="scroll('presentation')"> Apresentação</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" (click)="scroll('apostille')" > Benefícios</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" (click)="scroll('surprises')" > Apostilas</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" (click)="scroll('suport')"> Contato</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/discount"> Desconto</a>
+        </li>
+  
+      </ul>
+    </links> -->
+    
+ 
+
+</section>
+
+<div class="card_bids">
+  <a target="_blank" href="https://wa.me/message/MTZCHRAK7FG7G1">
+    <img src="../../../assets/images/WhatsApp.svg.png">
+  </a>
+</div>
+
+<main>
+  <app-header  id="header_top" #header_top></app-header>
+  <app-video-content id="presentation" #presentation></app-video-content>
+  <app-mini-banner id="games" #games></app-mini-banner>
+  <app-problems-activity></app-problems-activity>
+  <app-solutions></app-solutions>
+  <app-apostille id="apostille" #apostille></app-apostille>
+  <app-warranty></app-warranty>
+  <app-certificate></app-certificate>
+  <app-surprises id="surprises" #surprises></app-surprises>
+  <app-buy></app-buy>
+  <app-suport id="suport" #suport></app-suport>
+  <app-footer></app-footer>
+</main>

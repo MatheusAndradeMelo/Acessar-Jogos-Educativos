@@ -1,0 +1,142 @@
+* {
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+
+html { scroll-behavior: smooth; }
+
+section{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+:host ::ng-deep .navbar{
+  width: 100%;
+  padding: 5px 0 !important;
+  box-sizing: border-box !important;
+  box-shadow: none !important;
+  background-color: var( --color_two ) !important;
+  z-index: 999 !important;
+}
+
+:host ::ng-deep .navbar-brand{
+  padding: 0 0 0 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: var( --color_text_three ) !important;
+}
+
+:host ::ng-deep .navbar-collapse {
+  background: var( --color_two ) !important;
+  width: 100% !important;
+}
+
+:host ::ng-deep .navbar.navbar-expand-lg links{
+  justify-content: flex-end !important;
+  padding: 0 30px 0 0;
+  background: var( --color_two ) !important;
+}
+
+:host ::ng-deep .navbar links ul {
+  margin: 0 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+:host ::ng-deep ul li{
+  font-size: 20px;
+  cursor: pointer;
+}
+:host ::ng-deep .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: var( --color_text_three ) !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+:host ::ng-deep .navbar.navbar-light .navbar-toggler {
+  color: transparent !important;
+}
+
+:host ::ng-deep .navbar.navbar-dark .navbar-toggler {
+  color: #4fb977;
+}
+
+.card_bids {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all .2s;
+  z-index: 999 !important;
+  animation: move_bid 5s infinite;
+}
+
+@keyframes move_bid {
+  0% {
+      bottom: 20px;
+  }
+  10% {
+      bottom: 60px;
+      transform: scale(1) rotate(30deg);
+  }
+  15% {
+      bottom: 20px;
+      transform: scale(1.05) rotate(-45deg);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  }
+  20% {
+      bottom: 25px;
+      transform: scale(1) rotate(0deg);
+  }
+  25% {
+      bottom: 20px;
+      transform: scale(1.05) rotate(-45deg);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+  }
+  30%{
+      transform: scale(1) rotate(0deg);
+  }
+  100% {
+      bottom: 20px;
+  }
+}
+
+.card_bids:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  transition: all .2s;
+}
+
+.card_bids img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  aspect-ratio: 2/2;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 991px) {
+  :host ::ng-deep .navbar links ul {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 5px;
+  }
+}
+
+main{
+  position: relative;
+  overflow-x: hidden;
+  background: var( --color_two );
+  z-index: 9;
+}

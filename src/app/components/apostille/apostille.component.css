@@ -1,0 +1,125 @@
+.content {
+    width: 100%;
+    height: 100%;
+    background: purple;
+    padding: 65px 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mini-banner {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    /* background: var( --color_text_three ); */
+}
+
+header h1{
+    color: #3ef710 !important;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px !important;
+    font-weight: bold !important;
+    margin-bottom: 80px;
+}
+
+.content section{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card_left{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;     
+}
+
+.box_text_gray h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.box_text_gray{
+    max-width: 280px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 25px;
+    background: #fff;
+    color: var( --color_text_two );
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
+}
+
+@media screen and (max-width: 750px) {
+    header h1 {
+        display: flex;
+        font-size: 40px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .btn_buy {
+        margin-top: 50px
+    }
+
+    .box_text_gray,
+    .box_text_yellow{
+        max-width: max-content !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 50px;     
+    }
+
+    .box_text_gray{
+        max-width: 180px;
+        height: 455px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif !important;
+        padding: 25px;
+        background: #fff;
+        color: var( --color_text_two );
+        border-radius: 22px;
+        box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
+    }
+}

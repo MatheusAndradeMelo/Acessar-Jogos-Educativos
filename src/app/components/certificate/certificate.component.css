@@ -1,0 +1,257 @@
+/* .skew{
+    width: 100%;
+	margin-top:100px;
+	background: var( --color_text_three );;
+	display:inline-block;
+    -ms-transform: skewY(-3deg);
+	-webkit-transform: skewY(-3deg);
+	transform: skewY(-3deg);
+    padding: 80px 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} */
+/* 
+.skew>.content {
+    padding: 50px 100px;
+	font: 30px/1 sans-serif;
+	-ms-transform: skewY(3deg);
+	-webkit-transform: skewY(3deg);
+	transform: skewY(3deg);
+    color: var( --color_text_three );
+} */
+
+.content {
+    width: 100%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(4, 110, 209, 0.767);
+}
+
+.text-certificated {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: flipTitle var( --time_animation );
+    gap: 0 10%;
+}
+
+.texts {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 10px 25px;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.title span {
+    font-size: 58px;
+    font-weight: bold;
+    width: max-content !important;
+    font-family: 'Dosis', sans-serif !important;
+}
+
+.text {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.certificate_and_button {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn_buy {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-gif {
+    display: flex;
+    flex-direction: row;
+    margin-top: 190px;
+    margin-left: 30px;
+    justify-content: center;
+    transform: rotate(-65deg);
+}
+
+.arrow-gif img {
+    width: 120px;
+}
+
+.certificates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_final {
+    width: 100%;
+    max-width: 695px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.certificate-one {
+    display: flex;
+}
+
+.certificate-one img{
+    width: 220px;
+}
+
+.card {
+    width: max-content;
+    display: flex;
+    margin-top: 60px;
+    border: var( --color_text_three ) 20px solid;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.438);
+    animation: flipTitle var( --time_animation );
+  }
+  
+  .cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card-body{
+    color: var( --color_text_two );
+    text-align: center;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 25px 0 20px;
+    background: var( --color_text_three );
+  }
+  
+  .card img {
+    width: 250px;
+  }
+  
+  .card img.img-fluid {
+    width: 20vw !important;
+    height: 30vw  !important;
+  
+    max-width: 365px !important;
+    max-height: 300px !important;
+  
+    min-width: 240px !important;
+    min-height: 192px !important;
+  
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .card_down{
+    position: relative !important;
+    transform: scaleY(0.6) translateY(-75%);
+  }
+  
+
+
+@media screen and (max-width: 850px) {
+    .text-content {
+        display: flex;
+        width: 100%;
+    }
+
+    .texts {
+        width: 300px;
+    }
+
+    .arrow-gif img {
+        width: 90px !important;
+        margin-top: -30px !important;
+        margin-right: 80px;
+        transform: rotate(20deg);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text-content {
+        display: flex;
+        width: 100%;
+    }
+
+    .texts {
+        width: 300px;
+    }
+
+    .text {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .arrow-gif {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 110px;
+        justify-content: center;
+        transform: rotate(-65deg);
+    }
+
+    .btn_buy {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .certificate_and_button {
+        flex-direction: column;
+    }
+
+    .certificate-one {
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .arrow-gif img {
+        width: 90px !important;
+        margin-top: -30px !important;
+        margin-right: 80px;
+        transform: rotate(20deg);
+    }
+
+    .btn_buy button {
+        padding: 20px 90px !important;
+    }
+
+    .title_final {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}

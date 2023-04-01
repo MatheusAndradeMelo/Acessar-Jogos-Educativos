@@ -1,0 +1,127 @@
+<main>
+  <app-countdown></app-countdown>
+
+  <section id="discount-content">
+    <img class="image" src="../../../assets/images/Artboard 1 (2).png" alt="" />
+
+    <div class="header">
+      <h1>Ainda dá tempo</h1>
+      <p>10% de desconto em todas as apostilas de jogos educativos</p>
+
+      <div class="btn_buy">
+        <a target="_blank" (click)="scroll('text_final')">
+          <button>
+            <span class="Tiro"> OBTER OFERTA </span>
+            <img src="../../../assets/images/cart.png" alt="" />
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="images">
+    <div class="cards">
+      <div class="card">
+        <img
+          (click)="scroll('text_final')"
+          src="../../../assets/images/20151104_084803.jpg"
+          class="img-fluid"
+        />
+      </div>
+
+      <div class="card">
+        <div class="bg-image hover-overlay" mdbRipple rippleColor="light">
+          <img
+            (click)="scroll('text_final')"
+            class="img-2"
+            src="../../../assets/images/EDUCAÇÃO.jpg"
+            class="img-fluid"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.15)"
+            ></div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="bg-image hover-overlay" mdbRipple rippleColor="light">
+          <img
+            (click)="scroll('text_final')"
+            class="img-3"
+            src="../../../assets/images/image_3.jpeg"
+            class="img-fluid"
+          />
+          <a href="#!">
+            <div
+              class="mask"
+              style="background-color: rgba(251, 251, 251, 0.15)"
+            ></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="bg-image hover-overlay" mdbRipple rippleColor="light">
+          <img
+            (click)="scroll('text_final')"
+            class="img-3"
+            src="../../../assets/images/10418872_581242005323875_3599794545099278994_n.jpg"
+            class="img-fluid"
+          />
+          <a href="#!"> </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="text_final" #text_final>
+    <p>
+      Como você já conhece nossas apostilas de jogos educativos, queremos
+      incentivá-lo(a) a aproveitar esta oportunidade especial: estamos
+      oferecendo 10% de desconto em todas as apostilas em nosso site até o final
+      deste mês.
+    </p>
+
+    <p>
+      Nossas apostilas são desenvolvidas com muito cuidado e carinho, com o
+      objetivo de proporcionar uma experiência educativa e divertida para as
+      crianças. Com atividades lúdicas, desafios e jogos interativos, elas
+      estimulam o aprendizado de forma criativa e eficiente.
+    </p>
+
+    <p>
+      Para aproveitar o desconto, basta inserir o código de cupom
+      <strong>JOGOS10</strong>
+      ao finalizar a compra em nosso site. Não perca esta oportunidade de
+      adquirir nossas apostilas de jogos educativos com um desconto especial.
+      Clique no botão abaixo para acessar nossa loja online e começar a explorar
+      nossos produtos.
+    </p>
+
+    <div class="btn_buy">
+      <a
+        target="_blank"
+        href="https://pay.hotmart.com/N76101170A?checkoutMode=10"
+      >
+        <button>
+          <span class="Tiro"> COMPRE AGORA </span>
+          <img src="../../../assets/images/cart.png" alt="" />
+        </button>
+      </a>
+    </div>
+
+    <h3>@acessar.jogoseducativos</h3>
+
+    <div class="timer">
+      <h4>O tempo está acabando:</h4>
+      <div class="card_timer">
+        {{ countdown | async }}
+      </div>
+    </div>
+  </section>
+</main>

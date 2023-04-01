@@ -1,0 +1,119 @@
+.content {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../../../assets/images/imagem childs.png");
+}
+
+.title {
+    display: flex;
+    width: 550px;
+    height: 300px;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
+    align-items: center;
+    bottom: 60px;
+    justify-content: center;
+    flex-direction: column;
+    background: var( --color_two );
+    opacity: 0.9 !important;
+    color: #fff !important;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    animation: flipTitle var( --time_animation );
+}
+
+.sale-price {
+    width: 300px;
+    height: 255px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0.9 !important;
+    background: rgb(239, 230, 5);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
+}
+
+.first-offer {
+    padding-top: 30px;
+    color: #000;
+}
+
+.first-offer span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first-offer p {
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.second-offer {
+    color: #000;
+}
+
+.second-offer span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.second-offer p {
+    font-weight: bold;
+}
+
+.buy-now button{
+    width: 180px;
+    height: 50px;
+    background: rgba(9, 147, 226, 0.877);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 22px;
+    align-items: center;
+    text-align: center;
+}
+
+.buy-now button:hover {
+    background-color: rgb(11, 106, 161);
+    color: #fff;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.438);
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+@media screen and (max-width: 750px) {
+    .title {
+        display: flex;
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .card_row {
+        display: flex;
+        width: 300px;
+    }
+
+    .card_border_text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content {
+        height: 100vh;
+    }
+}

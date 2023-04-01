@@ -1,0 +1,61 @@
+#countdown {
+  width: 100%;
+  padding: 6px 0px 0px 30px;
+  background: red !important;
+}
+
+.timer {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .timer h4{
+    font-weight: bold !important;
+  }
+
+  .timer .card_timer {
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    padding: 7px;
+    background-color: #fff;
+    border: 2px solid #333;
+    color: #292929;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  button {
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+
+  ::ng-deep .edit-snackbar {
+    background: #cf0808;
+    color: #fff !important;
+  }
+
+  @media screen and (max-width: 500px) {
+    .timer h4{
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      
+    }
+
+    .timer {
+      display: flex;
+      align-items: center;
+    }
+  }
