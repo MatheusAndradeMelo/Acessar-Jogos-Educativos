@@ -41,11 +41,6 @@
     padding: 0.5em;
   }
 
-  ::ng-deep .edit-snackbar {
-    background: #cf0808;
-    color: #fff !important;
-  }
-
   @media screen and (max-width: 500px) {
     .timer h4{
       font-family: Arial, sans-serif;

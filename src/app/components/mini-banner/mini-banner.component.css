@@ -77,22 +77,6 @@ header h1{
     box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
 }
 
-.box_text_yellow{
-    max-width: 430px;
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 15px;
-    background: var( --color_three );
-    color: var( --color_text_two );
-    border-radius: 8px;
-    box-shadow: rgb(0 0 0 / 44%) 0px 3px 8px;
-}
-
 .buttons_icon {
     display: flex;
     width: 100%;
@@ -135,8 +119,7 @@ button img {
         margin-top: 50px
     }
 
-    .box_text_gray,
-    .box_text_yellow{
+    .box_text_gray{
         max-width: max-content !important;
         width: 90%;
         margin: 0 auto;
@@ -175,21 +158,3 @@ button img {
         width: 50px !important;
     }
 }
-
-/* @media screen and (max-width: 1115px) {
-    .buttons_icon {
-            display: flex;
-            width: 100%;
-            flex-direction: row;
-            padding-left: 130px;
-    }
-
-    .card_left {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 30px;
-        gap: 50px; 
-    }
-} */

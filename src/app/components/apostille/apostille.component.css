@@ -10,14 +10,6 @@
     flex-wrap: wrap;
 }
 
-.mini-banner {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    /* background: var( --color_text_three ); */
-}
-
 header h1{
     color: #3ef710 !important;
 }
@@ -82,10 +74,6 @@ header h1{
         font-size: 40px !important;
         justify-content: center !important;
         align-items: center !important;
-    }
-
-    .btn_buy {
-        margin-top: 50px
     }
 
     .box_text_gray,
