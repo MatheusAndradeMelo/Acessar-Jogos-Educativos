@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+import {CdkAccordionModule} from '@angular/cdk/accordion';
+import {MatIconModule} from '@angular/material/icon'
 
 // SCREENs
 import { AppComponent } from './app.component';
@@ -22,6 +24,7 @@ import { DiscountComponent } from './components/discount/discount.component';
 import { CountDownComponent } from './components/countdown/countdown.component';
 import { BuyComponent } from './components/buy/buy.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AskedQuestions } from './components/frequently-asked-questions/asked-questions.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SuportComponent,
     DiscountComponent,
     CountDownComponent,
-    BuyComponent
+    BuyComponent,
+    AskedQuestions,
   ],
   imports: [
     BrowserModule,
@@ -48,6 +52,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatToolbarModule,
     MatCardModule,
     BrowserAnimationsModule,
+    CdkAccordionModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
