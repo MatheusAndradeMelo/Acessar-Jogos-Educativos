@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
-import {CdkAccordionModule} from '@angular/cdk/accordion';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 // SCREENs
 import { AppComponent } from './app.component';
@@ -52,8 +52,8 @@ import { AskedQuestions } from './components/frequently-asked-questions/asked-qu
     MatToolbarModule,
     MatCardModule,
     BrowserAnimationsModule,
-    CdkAccordionModule,
-    MatIconModule
+    MatIconModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
