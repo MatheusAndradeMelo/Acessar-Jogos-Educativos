@@ -32,66 +32,12 @@ header {
   max-width: 90%;
   text-align: center;
   margin-right: 150px;
+  margin-bottom: 60px;
   line-height: 1.6;
   font-family: 'Montserrat', sans-serif !important;
   color: rgb(163, 10, 163) !important;
   font-weight: bold;
   animation: flipTitle var( --time_animation );
-}
-
-mat-card {
-  width: max-content;
-  display: flex;
-  padding: 0 !important;
-  margin-top: 60px;
-  border: var( --color_text_three ) 20px solid;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.438);
-  animation: flipTitle var( --time_animation );
-}
-
-mat-card img {
-  width: 300px;
-}
-
-.cards {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.card-body{
-  color: var( --color_text_two );
-  text-align: center;
-  font-size: 20px !important;
-  font-weight: bold;
-  padding: 25px 0 20px;
-  background: var( --color_text_three );
-}
-
-.card img {
-  width: 250px;
-}
-
-img.img-fluid {
-  width: 20vw !important;
-  height: 30vw  !important;
-
-  max-width: 365px !important;
-  max-height: 300px !important;
-
-  min-width: 240px !important;
-  min-height: 192px !important;
-
-  object-fit: cover;
-  object-position: top;
-}
-
-.card_down{
-  position: relative !important;
-  transform: scaleY(0.6) translateY(-75%);
 }
 
 .video-content {

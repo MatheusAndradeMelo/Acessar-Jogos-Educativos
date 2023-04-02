@@ -4,6 +4,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 // SCREENs
 import { AppComponent } from './app.component';
@@ -25,6 +26,8 @@ import { CountDownComponent } from './components/countdown/countdown.component';
 import { BuyComponent } from './components/buy/buy.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AskedQuestions } from './components/frequently-asked-questions/asked-questions.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import Swiper from 'swiper';
 
 @NgModule({
   declarations: [
@@ -45,6 +48,7 @@ import { AskedQuestions } from './components/frequently-asked-questions/asked-qu
     CountDownComponent,
     BuyComponent,
     AskedQuestions,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,9 +57,10 @@ import { AskedQuestions } from './components/frequently-asked-questions/asked-qu
     MatCardModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTooltipModule
   ],
-  providers: [],
+  providers: [Swiper],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
