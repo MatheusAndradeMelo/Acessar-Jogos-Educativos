@@ -57,6 +57,19 @@ header {
 }
 
 @media (max-width: 457px) {
+  .video-content {
+  padding: 0px 10px 30px;
+	font: 30px/1 sans-serif;
+  color: var( --color_two );
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-right: 20px;
+}
+
   header h1 {
     font-size: 30px !important;
     width: 100%;

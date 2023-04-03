@@ -20,13 +20,13 @@
 
 .text-one {
     width: 100%;
-    max-width: 860px;
+    max-width: 820px;
     height: 365px;
     max-height: 360px;
     font-size: 25px;
     font-weight: bold;
     line-height: 2.1;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 130px;
     display: flex;
     flex-direction: column;
@@ -51,11 +51,10 @@
     }
 
     .content {
-        height: 90vh;
+        height: 70vh;
     }
 
     .text-one {
-        width: 100%;
         max-width: 860px;
         height: 365px;
         max-height: 360px;

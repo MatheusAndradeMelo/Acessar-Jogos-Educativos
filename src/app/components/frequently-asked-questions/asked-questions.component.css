@@ -1,7 +1,7 @@
 main {
     width: 100%;
     margin: 0;
-    height: 110vh;
+    height: 115vh;
     background: purple;
 }
 
@@ -108,11 +108,20 @@ main {
 
     .title {
     display: flex;
-    width: 100%;
     padding: 10px;
     text-align: center;
     justify-content: center;
-    font-size: 21px;
-    background: #fff;
+    font-size: 31px;
 }   
+::ng-deep .mat-accordion {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 340px !important;
+    height: 790px;
+    margin-top: 20px !important;
+}
+
+::ng-deep .mat-expansion-panel-header-title, .mat-expansion-panel-header-description {
+  font-size: 11px;
+}
 }

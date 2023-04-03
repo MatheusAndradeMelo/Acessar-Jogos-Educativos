@@ -123,7 +123,7 @@
   .card-body{
     color: #fff;
     text-align: center;
-    font-size: 20px !important;
+    font-size: 31px !important;
     font-weight: bold;
     padding: 25px 0 20px;
   }
@@ -134,7 +134,7 @@
   }
   
   .card img.img-fluid {
-    width: 23vw !important;
+    width: 32vw !important;
     height: 40vw  !important;
   
     max-width: 365px !important;
@@ -171,6 +171,17 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    .content {
+        width: 100%;
+        padding: 55% 0;
+        display: flex;
+        height: 200vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgba(4, 110, 209, 0.767);
+    }
     .text-content {
         display: flex;
         width: 100%;
@@ -181,6 +192,7 @@
     }
 
     .text {
+        width: 100%;
         font-size: 18px;
         font-weight: bold;
         margin-bottom: 30px;
@@ -227,4 +239,23 @@
         font-size: 20px;
         margin-bottom: 20px;
     }
+
+    .card img {
+        width: 250px;
+        border-radius: 16px;
+      }
+      
+      .card img.img-fluid {
+        width: 112vw !important;
+        height: 80vw !important;
+      
+        max-width: 365px !important;
+        max-height: 300px !important;
+      
+        min-width: 240px !important;
+        min-height: 192px !important;
+      
+        object-fit: cover;
+        object-position: top;
+      }
 }

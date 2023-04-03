@@ -49,3 +49,23 @@
   .swiper-button-next, .swiper-button-prev {
     font-size: 10px !important;
   }
+
+  @media (max-width: 457px) {
+    .swiper-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 50px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      position: absolute;
+      top: 70%;
+      width: auto;
+      height: auto;
+      padding: 25px;
+      cursor: pointer;
+      z-index: 10;
+      color: transparent;
+    }
+  }

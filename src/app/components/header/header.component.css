@@ -132,7 +132,6 @@
   color: #fff;
   line-height: 30px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif !important;
   font-weight: 600;
 }
 
@@ -274,7 +273,7 @@ button img {
     min-width: 325px;
     min-height: 175px;
     display: flex;
-    margin-left: 60px !important;
+    margin-left: 40px !important;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
@@ -316,7 +315,7 @@ button img {
 
   .text_after_video {
     display: flex;
-    width: 350px;
+    width: 300px;
     height: 120px;
     padding: 20px;
     margin-bottom: 40px;
@@ -327,7 +326,7 @@ button img {
 }
 
 .second_text_video {
-  font-size: 13px;
+  font-size: 15px;
   color: #000;
   font-weight: 600;
 }
@@ -348,7 +347,7 @@ button img {
 .btn_buy_green {
   margin-bottom: 90px;
   justify-content: flex-start !important;
-  margin-left: 20%;
+  margin-left: 25%;
   align-items: center;
 }
 
