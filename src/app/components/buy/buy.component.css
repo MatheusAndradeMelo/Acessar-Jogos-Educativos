@@ -120,3 +120,9 @@ main {
     font-size: 21px;
 }
   }
+
+  @media screen and (max-width: 375px) {
+    .sale-price {
+        height: 200px;
+    }
+  }

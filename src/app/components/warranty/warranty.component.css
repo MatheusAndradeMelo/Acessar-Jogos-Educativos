@@ -75,3 +75,15 @@
         width: 280px;
     }
 }
+
+@media (max-width: 390px) {
+    .content {
+        height: 170vh !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .content {
+        height: 230vh !important;
+    }
+}

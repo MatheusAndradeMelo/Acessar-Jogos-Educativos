@@ -81,7 +81,7 @@ section {
 
 @media screen and (max-width: 500px) {
     .content {
-        height: 40vh;
+        height: 50vh;
     }
 
     .buy-now button {

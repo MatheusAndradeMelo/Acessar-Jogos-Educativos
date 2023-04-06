@@ -125,3 +125,21 @@ main {
   font-size: 11px;
 }
 }
+
+@media (max-width: 390px) {
+  main {
+    height: 90vh;
+}
+}
+
+@media (max-width: 375px) {
+  main {
+    height: 110vh;
+}
+
+@media (max-width: 415px) {
+  main {
+    height: 110vh;
+}
+}
+}

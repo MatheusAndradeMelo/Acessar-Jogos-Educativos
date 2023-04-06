@@ -69,3 +69,15 @@
       color: transparent;
     }
   }
+
+  @media (max-width: 390px) {
+    .swiper-wrapper {
+      padding: 30px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .swiper-wrapper {
+      padding: 30px;
+    }
+  }

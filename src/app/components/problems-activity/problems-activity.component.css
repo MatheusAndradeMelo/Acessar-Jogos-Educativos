@@ -87,7 +87,7 @@ header h1 {
         width: 100%;
         flex-direction: column;
         gap: 20px !important;
-        padding: 35px !important;
+        padding: 35px;
         justify-content: center;
     }
 
@@ -120,7 +120,27 @@ header h1 {
     width: 100%;
     flex-direction: column;
     gap: 120px;
-    padding: 110px;
+    /* padding: 110px; */
     justify-content: center;
 }
+}
+
+@media (max-width: 390px) {
+    main {
+        height: 170vh;
+    }
+
+    .cards_content, .cards_content_two {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        height: 210vh;
+    }
+
+    .cards_content, .cards_content_two {
+        padding: 20px;
+    }
 }

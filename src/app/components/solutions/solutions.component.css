@@ -118,3 +118,9 @@
         height: 100vh;
     }
 }
+
+@media (max-width: 375px) {
+    .content {
+        height: 130vh;
+    }
+  }

@@ -106,11 +106,18 @@ mat-toolbar-row a img {
 main{
   position: relative;
   overflow-x: hidden;
+  overflow-y: hidden;
   background: var( --color_two );
   z-index: 9;
 }
 
 @media screen and (max-width: 500px) {
+
+  .links_nav {
+    display: flex;
+    gap: 10px;
+  }
+
   .links_nav a {
     font-size: 12px;
     cursor: pointer;
