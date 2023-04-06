@@ -2,9 +2,7 @@
   font-family: "Material Icons" !important;
 }
 
-.Dosis {
-  font-family: 'Dosis', sans-serif !important;
-}
+
 
 .FontSofia{
   font-family: "Sofia", sans-serif !important;
@@ -24,6 +22,12 @@
   padding: 0;
   /* overflow-x: hidden !important; */
 }
+
+html, body {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 
 :root {
   /* var( --color_two ) */
@@ -62,9 +66,9 @@
   outline: none !important;
 } */
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   margin: 0;

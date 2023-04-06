@@ -3,7 +3,11 @@
   scroll-behavior: smooth;
 }
 
-html { scroll-behavior: smooth; }
+html, body {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 
 section{
   width: 100%;
@@ -104,4 +108,11 @@ main{
   overflow-x: hidden;
   background: var( --color_two );
   z-index: 9;
+}
+
+@media screen and (max-width: 500px) {
+  .links_nav a {
+    font-size: 12px;
+    cursor: pointer;
+  }
 }
