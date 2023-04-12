@@ -31,7 +31,7 @@
 }
 
 .sale-price {
-    width: 300px;
+    width: 620px;
     height: 255px;
     margin: 0 auto;
     display: flex;
@@ -51,12 +51,13 @@
 }
 
 .first-offer span {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
+    text-decoration: line-through red;
 }
 
 .first-offer p {
-    margin-left: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -65,12 +66,13 @@
 }
 
 .second-offer span {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .second-offer p {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .buy-now button{
@@ -115,8 +117,33 @@
 
 @media screen and (max-width: 500px) {
     .content {
-        height: 100vh;
+        height: 130vh;
     }
+
+    .sale-price {
+    width: 300px;
+    height: 255px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0.9 !important;
+    background: rgb(239, 230, 5);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.438) 0px 3px 8px;
+}
+.first-offer span {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: line-through red;
+}
+
+.first-offer p {
+    font-size: 16px;
+    font-weight: bold;
+}
 }
 
 @media (max-width: 375px) {

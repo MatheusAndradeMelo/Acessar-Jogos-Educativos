@@ -3,11 +3,6 @@
 }
 
 
-
-.FontSofia{
-  font-family: "Sofia", sans-serif !important;
-}
-
 .Delicious {
   font-family: 'Delicious Handrawn', cursive !important;
 }
@@ -106,7 +101,7 @@ colors {
 
 header h1{
   color: var( --color_two );
-  font-family: "Sofia", sans-serif !important;
+  font-family: 'Dosis', sans-serif !important;
   font-size: 70px !important;
   margin-bottom: 50px;
 }

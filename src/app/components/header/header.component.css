@@ -71,6 +71,7 @@
   bottom: 40px;
   width: 70px;
   object-fit: contain;
+  margin-right: 20px;
   opacity: 0.7;
   animation: flipTitle var( --time_animation );
 }
@@ -109,7 +110,7 @@
     border-radius: 22px;
     margin-bottom: 40px;
     color: #000 !important;
-    margin-left: 30px;
+    margin-left: 15px;
     animation: flipTitle var(--time_animation );
     background-color: var(--color_two);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -179,7 +180,7 @@ button img {
     min-width: 325px;
     min-height: 175px;
     display: flex;
-    margin-left: 30px !important;
+    margin-left: 20px !important;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
@@ -234,8 +235,9 @@ button img {
   .header .image {
     width: 300px;
     object-fit: cover;
+    animation: flipTitle var( --time_animation );
     margin-bottom: 50px;
-    margin-left: 90px !important;
+    margin-left: 60px !important;
   }
 
   .text-one {
@@ -273,7 +275,6 @@ button img {
     min-width: 325px;
     min-height: 175px;
     display: flex;
-    margin-left: 40px !important;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
@@ -342,12 +343,14 @@ button img {
 .logo_and_text div {
   display: flex;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn_buy_green {
   margin-bottom: 90px;
   justify-content: flex-start !important;
-  margin-left: 25%;
+  margin-left: 20%;
   align-items: center;
 }
 
