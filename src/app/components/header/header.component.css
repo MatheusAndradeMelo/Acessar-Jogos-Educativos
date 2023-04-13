@@ -6,7 +6,6 @@
   display: flex;
   background: #000;
   background-image: url("../../../assets/images/IMAGEM 1-min.png");
-  object-fit: cover;
   padding: 12% 0 ;
   align-items: center;
   justify-content: center;

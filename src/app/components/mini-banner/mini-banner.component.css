@@ -34,12 +34,9 @@ header h1{
 
 .content section{
     width: 100%;
-    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -61,7 +58,7 @@ header h1{
 
 .box_text_gray{
     max-width: 200px;
-    /* height: 300px; */
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,8 +77,8 @@ header h1{
 .buttons_icon {
     display: flex;
     width: 100%;
-    flex-direction: row;
-    gap: 200px;
+    flex-direction: column;
+    gap: 80px;
     justify-content: center;
     align-items: center;
 }
@@ -105,6 +102,16 @@ button img {
     width: 80px !important;
 }
 
+@media screen and (max-width: 500px) {
+    .content section{
+    flex-direction: column;
+}
+
+.box_text_gray{
+    width: 90%;
+}
+}
+
 @media screen and (max-width: 750px) {
     header h1 {
         display: flex;
@@ -118,7 +125,6 @@ button img {
     }
 
     .box_text_gray{
-        max-width: max-content !important;
         width: 90%;
         margin: 0 auto;
     }

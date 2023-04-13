@@ -5,6 +5,9 @@
     align-items: center;
     flex-direction: column;
     background-image: url("../../../assets/images/imagem childs.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title {
