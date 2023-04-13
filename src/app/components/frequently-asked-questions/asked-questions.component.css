@@ -128,7 +128,7 @@ main {
 
 @media (max-width: 390px) {
   main {
-    height: 90vh;
+    height: 120vh;
 }
 }
 
@@ -139,7 +139,7 @@ main {
 
 @media (max-width: 415px) {
   main {
-    height: 110vh;
+    height: 116vh;;
 }
 }
 }
