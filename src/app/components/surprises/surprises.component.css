@@ -58,19 +58,19 @@
     }
 
     .text-one {
-        max-width: 860px;
-        height: 365px;
-        max-height: 360px;
-        font-size: 20px;
-        font-weight: bold;
-        margin-left: 0px !important;
-        margin-top: 0px !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 30px 10px;
-        border-radius: 8px;
+            /* max-width: 860px; */
+    /* height: 365px; */
+    /* max-height: 360px; */
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0px !important;
+    margin-top: 70px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 8px;
     }
   }

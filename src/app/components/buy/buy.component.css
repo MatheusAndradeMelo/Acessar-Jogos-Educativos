@@ -108,7 +108,6 @@ main {
     .text-two {
     display: flex;
     width: 100%;
-    padding: 10px;
     text-align: center;
     justify-content: center;
     font-size: 18px;
@@ -118,7 +117,7 @@ main {
     width: 100%;
     text-align: center;
     justify-content: center;
-    font-size: 21px;
+    font-size: 16px;
 }
   }
 
